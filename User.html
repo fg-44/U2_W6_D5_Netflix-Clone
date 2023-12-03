@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix-clone</title>
+
+    <!----- RESET ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap --->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- STylesheet -->
+    <link rel="stylesheet" href="css/Style.css">
+
+
+</head>
+
+<body>
+
+    <section class="container-lg d-flex flex-column justify-content-between align-items-lg-center py-5">
+
+        <div class="row col-7 d-flex ">
+
+            <h1 class="display-3 mb-4 text-light border-bottom border-secondary">Edite Profile</h1>
+
+            <div class="d-flex">
+
+                <div>
+                    <img src="Asset/avatar.png" alt="">
+                </div>
+
+                <div class=" col-lg-7 p-2 ms-3 ">
+
+                    <input class="form-control bg-secondary border-0 text-light" type="text" placeholder="Nome Cognome"
+                        aria-label="default input example">
+                    <p class="mt-4 text-light h4"> Language:</p>
+
+                    <div class="dropdown">
+                        <button class="btn btn-outline-light dropdown-toggle " type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+
+                    <div class=" border-top my-5">
+
+                        <p class="mt-4 text-light h4 p-2"> Maturity Setting:</p>
+                        <input class="form-control bg-secondary border-0 text-light m-2" type="text"
+                            placeholder="All MATURIT SETTINGS" aria-label="default input example">
+                        <p class="mt-4 text-light p-2"> Show titles of <b>all maturity rating</b> for this profile</p>
+                        <button type="button" class="btn btn-outline-secondary m-2">Edits</button>
+
+                    </div>
+
+                    <div class=" border-top my-5">
+
+                        <p class="mt-4 text-light h4 p-2"> Autoplay Controls</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label text-light" for="flexCheckDefault">
+                                Autoplay next episode in a series on all device
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label text-light" for="flexCheckDefault">
+                              Autoplay previews while browsing on all device
+                            </label>
+                          </div>
+                          
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+           <div class="d-flex py-3 border-top">
+            <button type="button" class="btn btn-light btn-lg m-3">SAVE</button>
+            <button type="button" class="btn btn-outline-secondary m-3">CANCEL</button>
+            <button type="button" class="btn btn-outline-secondary m-3">DELETE PROFILE</button>
+           </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-------------------- SCRIPT! --------------------->
+
+    <script src="js/Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
